@@ -1,4 +1,4 @@
-#Spencer & Gerrit's Music Mixer!
+# Spencer & Gerrit's Music Mixer!
 
 ## Requirements
 
