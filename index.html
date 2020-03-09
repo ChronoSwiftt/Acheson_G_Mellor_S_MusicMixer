@@ -1,81 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-
-	<title>Java on the Beat</title>
-	<link href="css/main.css" rel="stylesheet" type="text/css">
-	<!-- Google Font Link-->
-	<link href="https://fonts.googleapis.com/css?family=Baloo+Chettan|Oxanium&display=swap" rel="stylesheet">
-
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
+ <link href="css/main.css" rel="stylesheet" type="text/css">
+ <!-- Google Font Link-->
+ <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,700|Oswald:300,400,700&display=swap" rel="stylesheet">
+ <title>Java On The Beat</title>
 </head>
 <body>
+<div class="container">
+	<h1 class="hidden">Spencer & Gerrit's Music Mixer</h1>
 
-	<header>
-		<h1 class="hidden">Music Header</h1>
-		<h2>Java on the Beat</h2>
+	<header class="header">
+		<p id="headTitle">Java <span class="light">on the</span> Beat</p>
 		<p>By Gerrit Acheson and Spencer Mellor</p>
 	</header>
 
-	<div class="square">
-		<div class="squareShadow"></div>
-		<p>Drag an Instrument onto the Soundboard to Hear the Sound</p>
+	<div class="instructions">
+		<p>Drag and drop the instruments into the <span class="heavy">drop zone</span> to start making beats!</p>
 	</div>
 
-	<div>
-		<img class="directionArrow" src="images/arrow.svg">
+	<div class="drop-zone-title"><p>Drop Zone</p></div>
+	<div class="drop-zone">
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
 	</div>
 
-<div class="grid-row">
-
-	<div class="button">
-
-		<div class="Icon1">
-			<img src="images/drum.svg" alt="snare drum">
-		</div>
-
+	<div class="instruments-title"><p>Choose Your Instruments</p></div>
+	<div class="instruments-zone">
+		<div class="instrument"></div>
+		<div class="instrument"></div>
+		<div class="instrument"></div>
+		<div class="instrument"></div>
+		<div class="instrument"></div>
+		<div class="instrument"></div>
 	</div>
 
-	<div class="button">
-
-		<div class="Icon2">
-			<img src="images/cymbal.svg" alt="cymbals">
-		</div>
-
-	</div>
-
-	<div class="button">
-
-		<div class="Icon3">
-			<img src="images/highhat.svg" alt="high hat">
-		</div>
-
-	</div>
-
-	<div class="button">
-
-		<div class="Icon4">
-			<img src="images/drum large.svg" alt="bass drum">
-		</div>
-
-	</div>
-
-	<div class="button">
-
-		<div class="Icon5">
-			<img src="images/flute.svg" alt="flute">
-		</div>
-
-	</div>
-
-	<div class="button">
-
-		<div class="Icon6">
-			<img src="images/piano.svg" alt="piano">
-		</div>
+	<div class="instruments-names">
+		<div><p>Cymbal</p></div>
+		<div><p>Large Drum</p></div>
+		<div><p>Drum</p></div>
+		<div><p>Flute</p></div>
+		<div><p>Hyatt</p></div>
+		<div><p>Piano</p></div>
 	</div>
 </div>
-
-
 </body>
 </html>

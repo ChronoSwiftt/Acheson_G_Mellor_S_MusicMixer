@@ -1,127 +1,161 @@
 @charset "utf-8";
 
-body
-{
-	width: 100%;
-	background-color: #c1272d;
-}
-
-h2
-{
-	font-family: "Baloo Chettan", cursive;
-	font-size: 50px;
-	color: #fff;
-	line-height: 10px;
-	text-align: center;
-	font-weight: normal;
-	font-style: normal;
-	margin-top: 25px;
-}
-
-p
-{
-	font-family: 'Oxanium', cursive;
-	font-size: 18px;
-	color: #fff;
-	line-height: 2.5px;
-	text-align: center;
-	font-weight: normal;
-	font-style: normal;
-	margin-top: 25px;
-	padding-bottom: 20px;
-}
-
-.square
-{
-	margin:0 auto;
-	height: 375px;
-	width: 695px;
-	background-color: white;
-	margin-bottom: 25px;
-}
-
-.squareShadow
-{
-	box-shadow: 0 0 10px rgba(0,0,0,0,6);
-}
-
-.square p
-{
-	font-family: 'Oxanium', cursive;
-	font-size: 20px;
-	color: #c1272d;
-	text-align: center;
-	line-height: 50px;
-	text-decoration: underline;
-}
-
-.directionArrow
-{
-	margin: 0 auto;
-	height: 77px;
-	width: 72px;
-	display: flex;
-  	align-items: center;
-  	justify-content: center
-}
-
-.grid-row
-{
-	margin-top: 50px;
-	display: flex;
-  	flex-flow: row wrap;
-  	align-content: center;
-  	justify-content: space-around;
-  	margin-right: 25px;
-  	margin-bottom: 25px;
-}
-
-.icon1
-{
-	width: 90px;
-	height: 94px;
-}
-
-.icon2
-{
-	width: 102px;
-	height: 77px;
-}
-
-.icon3
-{
-	width: 66px;
-	height: 98px;
-
-}
-
-.icon4
-{
-	width: 95px;
-	height: 95px;
-}
-
-.icon5
-{
-	width: 97px;
-	height: 97px;
-}
-
-.icon6
-{
-	width: 115px;
-	height: 63px;
-}
-
-.button
-{
-	width: 150px;
-	height: 150px;
-	background-color: #fff;
-	padding: 10px;
-}
-
 .hidden
 {
 	display: none;
+}
+
+.container {
+	width: 100%;
+	background-color: #0B0C10;
+}
+
+/* header elements */
+
+.header {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	text-align: center;
+	flex-direction: column;
+}
+
+.header p {
+	color: #C5C6C7;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+#headTitle {
+	color: #66FCF1;
+	font-size: 100px;
+	font-weight: 400;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.light {
+	color: #66FCF1;
+	font-size: 30px;
+	font-weight: 300;
+	font-family: 'Oswald', sans-serif;
+}
+
+/* instructions elements */
+
+.instructions {
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.instructions p {
+	color: #C5C6C7;
+	font-size: 30px;
+	text-align: center;
+	font-weight: 400;
+	font-family: 'Oswald', sans-serif;
+}
+
+.heavy {
+	color: #66FCF1;
+	font-size: 30px;
+	font-weight: 400;
+	font-family: 'Oswald', sans-serif;
+}
+
+/* drop-zone elements */
+
+.drop-zone-title {
+	color: #66FCF1;
+	font-family: 'Oswald', sans-serif;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: 25px;
+}
+
+.drop-zone {
+	width: 75%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(3, 400px);
+	grid-template-rows: repeat(2, 200px);
+	grid-gap: 50px 100px;
+	margin-bottom: 100px;
+}
+
+.box:hover {
+	opacity: 70%;
+	cursor: pointer;
+}
+
+.box {
+    color: #fff;
+	background-color: #45A29E;
+	padding: 5px;
+    text-align: center;
+	box-shadow: 10px 10px 100px #66FCF1;
+	border: 2px;
+	border-radius: 2px;
+	border-color: #66FCF1;
+	border-style: solid;
+}
+
+/* instruments-zone elements  */
+
+.instruments-title {
+	color: #66FCF1;
+	font-family: 'Oswald', sans-serif;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: 25px;
+}
+
+.instruments-zone {
+	width: 75%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(6, 200px);
+	grid-template-rows: 200px;
+	grid-gap: 50px;
+	margin-bottom: 50px;
+}
+
+.instrument {
+    color: #fff;
+	background-color: #45A29E;
+    text-align: center;
+	border: 5px;
+	border-radius: 5px;
+	border-color: #66FCF1;
+	border-style: solid;
+}
+
+.instrument:hover {
+	opacity: 70%;
+	cursor: pointer;
+}
+/* instruments-name elements */
+
+.instruments-names {
+	width: 75%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(6, 200px);
+	grid-template-rows: 200px;
+	grid-gap: 50px;
+}
+
+.instruments-names p {
+	color: #C5C6C7;
+	font-size: 30px;
+	text-align: center;
+	font-weight: 400;
+	font-family: 'Oswald', sans-serif;
 }
