@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-body 
+body
 {
 	width: 100%;
 	background-color: #c1272d;
@@ -33,7 +33,7 @@ p
 
 .square
 {
-	margin:0 auto; 
+	margin:0 auto;
 	height: 375px;
 	width: 695px;
 	background-color: white;
@@ -113,48 +113,7 @@ p
 	height: 63px;
 }
 
-.button1
-{
-	width: 150px;
-	height: 150px;
-	background-color: #fff;
-	padding: 10px;
-}
-
-.button2
-{
-	width: 150px;
-	height: 150px;
-	background-color: #fff;
-	padding: 10px;
-}
-
-.button3
-{
-	width: 150px;
-	height: 150px;
-	background-color: #fff;
-	padding: 10px;
-	
-}
-
-.button4
-{
-	width: 150px;
-	height: 150px;
-	background-color: #fff;
-	padding: 10px;
-}
-
-.button5
-{
-	width: 150px;
-	height: 150px;
-	background-color: #fff;
-	padding: 10px;
-}
-
-.button6
+.button
 {
 	width: 150px;
 	height: 150px;
