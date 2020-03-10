@@ -84,11 +84,16 @@
 	margin: 0 auto;
 	text-align: center;
 	display: grid;
-	grid-template-columns: repeat(3, 415px);
+	grid-template-columns: repeat(3, 315px);
 	grid-template-rows: repeat(2, 200px);
 	grid-gap: 50px 100px;
 	margin-bottom: 100px;
 }
+
+.drop-zone img {
+	width: 100px;
+}
+
 
 .box:hover {
 	opacity: 70%;
@@ -123,7 +128,7 @@
 	margin: 0 auto;
 	text-align: center;
 	display: grid;
-	grid-template-columns: repeat(6, 200px);
+	grid-template-columns: repeat(6, 170px);
 	grid-template-rows: 200px;
 	grid-gap: 50px;
 	margin-bottom: 50px;
@@ -150,7 +155,7 @@
 	width: 75%;
 	margin: 0 auto;
 	display: grid;
-	grid-template-columns: repeat(6, 200px);
+	grid-template-columns: repeat(6, 170px);
 	grid-template-rows: 200px;
 	grid-gap: 50px;
 }

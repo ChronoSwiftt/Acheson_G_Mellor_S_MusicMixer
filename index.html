@@ -25,22 +25,33 @@
 
 	<div class="drop-zone-title"><p>Drop Zone</p></div>
 	<div class="drop-zone">
-		<div class="box"></div>
-		<div class="box"></div>
-		<div class="box"></div>
-		<div class="box"></div>
-		<div class="box"></div>
-		<div class="box"></div>
+		<div class="box" id="box_1"></div>
+      <audio src="" loop id="audio1"></audio>
+
+		<div class="box" id="box_2"></div>
+      <audio src="" loop id="audio2"></audio>
+
+		<div class="box" id="box_3"></div>
+      <audio src="" loop id="audio3"></audio>
+
+		<div class="box" id="box_4"></div>
+      <audio src="" loop id="audio4"></audio>
+
+		<div class="box" id="box_5"></div>
+      <audio src="" loop id="audio5"></audio>
+
+		<div class="box" id="box_6"></div>
+      <audio src="" loop id="audio6"></audio>
 	</div>
 
 	<div class="instruments-title"><p>Choose Your Instruments</p></div>
 	<div class="instruments-zone">
-		<div class="instrument"><img src="images/cymbal.svg" alt="Cymbal SVG Logo"></div>
-		<div class="instrument"><img src="images/drum-large.svg" alt="Cymbal SVG Logo"></div>
-		<div class="instrument"><img src="images/drum.svg" alt="Cymbal SVG Logo"></div>
-		<div class="instrument"><img src="images/flute.svg" alt="Cymbal SVG Logo"></div>
-		<div class="instrument"><img src="images/highhat.svg" alt="Cymbal SVG Logo"></div>
-		<div class="instrument"><img src="images/piano.svg" alt="Cymbal SVG Logo"></div>
+		<div class="instrument" draggable="true" id="cymbal"><img src="images/cymbal.svg" alt="Cymbal SVG Logo" draggable="false"></div>
+		<div class="instrument" draggable="true" id="kick-drum"><img src="images/drum-large.svg" alt="Cymbal SVG Logo" draggable="false"></div>
+		<div class="instrument" draggable="true" id="base-drum"><img src="images/drum.svg" alt="Cymbal SVG Logo" draggable="false"></div>
+		<div class="instrument" draggable="true" id="flute-trill"><img src="images/flute.svg" alt="Cymbal SVG Logo" draggable="false"></div>
+		<div class="instrument" draggable="true" id="snare"><img src="images/highhat.svg" alt="Cymbal SVG Logo" draggable="false"></div>
+		<div class="instrument" draggable="true" id="piano-chord"><img src="images/piano.svg" alt="Cymbal SVG Logo" draggable="false"></div>
 	</div>
 
 	<div class="instruments-names">
@@ -57,5 +68,7 @@
 	</div>
 
 </div>
+
+<script src="js/main.js"></script>
 </body>
 </html>
