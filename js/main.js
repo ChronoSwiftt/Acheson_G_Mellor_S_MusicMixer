@@ -1,4 +1,4 @@
-// Javascript
+ // Javascript
 
 const dropzones = document.querySelectorAll('.box'),
    instruments = document.querySelectorAll('.instrument')
